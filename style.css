@@ -32,9 +32,10 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 15px; 
   margin: 0;
   padding: 0;
+  justify-content: space-between;
 }
 
 .nav-links a {
@@ -244,16 +245,4 @@ footer {
   text-align: center;
   padding: 20px 10px;
   margin-top: 40px;
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    display: none; /
-  }
-  .hamburger-menu {
-    display: block;
-  }
-  .search-bar {
-    width: 100%; 
-    }
 }
